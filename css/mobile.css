@@ -53,8 +53,8 @@
 
 /* features */
 
-@media screen and (min-width: 428px) {
+@media screen and (min-width: 480px) {
     .container {
-        width: 428px;
+        max-width: 428px;
     }
 }
