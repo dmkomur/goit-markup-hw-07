@@ -91,12 +91,21 @@
         flex-basis: calc((100% - 24px * 3) / 4);
     }
 
+    /* costumers */
+
+    .custumers-section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .costumers {
+        gap: 24px;
+    }
 
 
-
-
-
-
+    .custumers-icon {
+        width: calc((100% - 24px * 5) / 6);
+    }
 
 
 

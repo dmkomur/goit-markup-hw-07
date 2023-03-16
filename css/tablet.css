@@ -69,6 +69,17 @@
         flex-basis: calc((100% - 24px) / 2);
     }
 
+    /* costumers */
+    .costumers {
+        gap: 72px 24px;
+    }
+
+    .custumers-icon {
+        width: calc((100% - 24px * 2) / 3);
+    }
+
+
+
 
 
 
