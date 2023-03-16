@@ -239,44 +239,7 @@ p {
 
 /* Features */
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
 
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
-.features {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.features-list {
-    display: flex;
-    justify-content: space-between;
-}
-
-.features-item {
-    flex-basis: calc((100% - 24px * 3) / 4)
-}
-
-.features-icon {
-    height: 112px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #F4F4FD;
-    border-radius: 4px;
-    margin-bottom: 8px;
-}
 
 /* doing */
 .doing-section {

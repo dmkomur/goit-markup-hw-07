@@ -1,9 +1,22 @@
 @media screen and (min-width: 768px) {
+
+    /* commonstyles */
     .container {
         width: 768px;
     }
 
+    .section-subtitle {
+        text-align: left;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        color: var(--color-text-accent);
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
+    }
+
     /* hero */
+
     .hero-section {
         padding: 112px 0px 108px 0px;
     }
@@ -15,4 +28,21 @@
     }
 
     /* features */
+
+
+    .features>.container {
+        padding: 0 16px;
+    }
+
+    .features-list {
+        gap: 72px 24px;
+    }
+
+
+
+    .features-item {
+        flex-basis: calc((100% - 24px) / 2);
+    }
+
+
 }

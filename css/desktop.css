@@ -13,4 +13,18 @@
     }
 
     /* features */
+    .features {}
+
+    .features-list {}
+
+    .features-icon {
+        height: 112px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #F4F4FD;
+        border-radius: 4px;
+        margin-bottom: 8px;
+    }
 }

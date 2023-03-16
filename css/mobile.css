@@ -1,10 +1,70 @@
-/* hero */
+/* common styles */
+.section-subtitle {
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.section-title {
+    margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--color-text-accent);
+    letter-spacing: 0.02em;
+}
+
+.card-img {
+    max-width: 100%;
+    display: block;
+}
+
+.social-links {
+    display: flex;
+    gap: 24px;
+}
+
+.social-icon {
+    height: 40px;
+    width: 40px;
+
+}
+
+.social-icon-pic {
+    fill: var(--color-text-unaccent);
+}
+
+.social-icon-link {
+    width: 100%;
+    background-color: var(--color-main);
+    border-radius: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--transition-type);
+}
+
+.social-icon-link:hover,
+.social-icon-link:focus {
+    background-color: var(--color-hover);
+    outline: none;
+}
+
 .container {
     width: 100%;
     margin: 0px auto;
     padding: 0px 15px;
 
 }
+
+/* hero */
 
 .hero-section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -53,8 +113,58 @@
 
 /* features */
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.features>.container {
+    padding: 0 16px;
+}
+
+.features {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px;
+
+}
+
+.features-item {
+    flex-basis: 100%;
+}
+
+.features-icon {
+    height: 112px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F4F4FD;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    display: none;
+}
+
+
+
 @media screen and (min-width: 480px) {
     .container {
         max-width: 428px;
     }
 }
+
+@media screen and (max-width: 479px) {}
