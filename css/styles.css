@@ -379,127 +379,32 @@ p {
 }
 
 /* footer */
-.footer-section {
-    background-color: var(--color-text-accent);
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.footer-blocks {
-    display: flex;
-    align-items: baseline;
-}
-
-
-.logo-footer {
-    color: var(--color-text-unaccent);
-}
-
-.footer-text {
-    width: 264px;
-    margin-top: 16px;
-    color: #E7E9FC;
-
-}
-
-.footer-studio {
-    margin-right: 120px;
-}
-
-.footer-social {
-    margin-right: 80px;
-}
-
-.footer-social-gap {
-    gap: 16px
-}
-
-.footer-social-discription {
-    color: var(--color-alternative);
-    margin-bottom: 16px;
-    font-weight: 500;
-}
-
-.footer-social-icon {
-    background-color: rgba(256, 256, 256, 0.1);
-}
-
-.footer-social-icon:hover,
-.footer-social-icon:focus {
-    background-color: #31D0AA;
-    outline: none;
-}
-
-.footer-subscribe {
-    display: flex;
-    gap: 24px;
-}
-
-.btn-subscribe {
-    padding: 8px 24px;
-    background-color: var(--color-main);
-    border-width: 0px;
-    border-radius: 4px;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    font-weight: 500;
-    color: var(--color-alternative);
-    display: flex;
-    gap: 16px;
-    align-items: center;
-    cursor: pointer;
-    transition: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: var(--transition-type);
-}
-
-.btn-subscribe:hover,
-.btn-subscribe:focus {
-    outline: none;
-    background-color: var(--color-hover);
-}
 
 
 
-.footer-input::placeholder {
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
-    transition: color 250ms var(--transition-type);
-}
-
-.footer-input {
-    padding-left: 16px;
-    width: 264px;
-    height: 40px;
-    border-radius: 4px;
-    background-color: transparent;
-    border-width: 0;
-    border: 1px solid rgba(255, 255, 255, 0.3);
 
 
-    color: var(--color-alternative);
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
-}
 
-.footer-input:focus,
-.footer-input:hover {
-    outline: none;
-    border: 1px solid var(--color-alternative);
-}
 
-.footer-input:focus::placeholder,
-.footer-input:hover::placeholder {
-    color: var(--color-alternative);
-}
 
-.btn-subscribe-pic {
-    fill: var(--color-alternative);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* backdrop */
 .backdrop.is-hidden {
