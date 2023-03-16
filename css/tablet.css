@@ -1,0 +1,18 @@
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+
+    /* hero */
+    .hero-section {
+        padding: 112px 0px 108px 0px;
+    }
+
+    .hero-header {
+        margin: 0px auto 40px;
+        font-size: 56px;
+        line-height: 1.07;
+    }
+
+    /* features */
+}
