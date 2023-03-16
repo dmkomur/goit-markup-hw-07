@@ -1,11 +1,12 @@
 /* common styles */
+
 .section-subtitle {
-    margin: 0 auto;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--color-text-accent);
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .section-title {
@@ -20,12 +21,15 @@
 
 .card-img {
     max-width: 100%;
+    width: 100%;
+    height: auto;
     display: block;
 }
 
 .social-links {
     display: flex;
     gap: 24px;
+    justify-content: center;
 }
 
 .social-icon {
@@ -42,6 +46,7 @@
     width: 100%;
     background-color: var(--color-main);
     border-radius: 50%;
+    margin: 0 auto;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -143,28 +148,100 @@
 
 }
 
+.features-section-subtitle {
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
 .features-item {
     flex-basis: 100%;
 }
 
 .features-icon {
-    height: 112px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #F4F4FD;
-    border-radius: 4px;
-    margin-bottom: 8px;
     display: none;
 }
 
+/* doing */
 
+.doing-section {
+    display: none;
+
+}
+
+/* team */
+
+
+.team-section {
+    background-color: var(--color-text-unaccent);
+    padding-top: 96px;
+    padding-bottom: 128px;
+
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px;
+}
+
+.team-card {
+
+    flex-basis: 100%;
+    border-radius: 4px;
+    background-color: var(--color-alternative);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-card-description {
+    padding: 32px 16px;
+    text-align: center;
+}
+
+.team-card-social {
+    display: flex;
+}
+
+.team-card-social {
+    display: flex;
+    padding-top: 8px;
+    justify-content: space-between;
+}
+
+.team-card-profession {
+    margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* phone properties */
 
 @media screen and (min-width: 480px) {
     .container {
         max-width: 428px;
     }
+
+    /* .team-section>.container {
+        padding: 0 82px;
+    } */
 }
 
-@media screen and (max-width: 479px) {}
+@media screen and (min-width: 480px) and (max-width: 479px) {
+    .team-section>.container {
+        padding: 0 82px;
+    }
+}

@@ -1,9 +1,22 @@
 @media screen and (min-width: 1200px) {
+
+    /* commonstyles */
+
+    .section-subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        color: var(--color-text-accent);
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
+    }
+
     .container {
-        width: 1158px;
+        max-width: 1158px;
     }
 
     /* hero   */
+
     .hero-section {
         padding: 188px 0px;
     }
@@ -13,9 +26,19 @@
     }
 
     /* features */
-    .features {}
 
-    .features-list {}
+    .features {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .features-list {
+        gap: 24px;
+    }
+
+    .features-item {
+        flex-basis: calc((100% - 24px * 3) / 4);
+    }
 
     .features-icon {
         height: 112px;
@@ -27,4 +50,60 @@
         border-radius: 4px;
         margin-bottom: 8px;
     }
+
+    .features-section-subtitle {
+        text-align: left;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        color: var(--color-text-accent);
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
+    }
+
+    /* doing */
+
+    .doing-section {
+        display: block;
+        padding-bottom: 120px;
+    }
+
+
+    .doing-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* team */
+
+    .team-section {
+        background-color: var(--color-text-unaccent);
+        padding-top: 120px;
+        padding-bottom: 120px;
+
+    }
+
+    .team-container {
+        gap: 24px;
+    }
+
+    .team-card {
+        flex-basis: calc((100% - 24px * 3) / 4);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* end */
 }
