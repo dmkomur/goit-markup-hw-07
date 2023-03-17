@@ -109,18 +109,20 @@
 
     /* footer */
 
-    .footer-section {}
+    .footer-section {
+        display: flex;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        justify-content: flex-start;
+    }
+
 
     .footer-blocks {
-
+        gap: 0;
+        flex-wrap: nowrap;
         align-items: baseline;
     }
 
-    .footer-text {
-        width: 264px;
-        margin-top: 16px;
-
-    }
 
     .footer-studio {
         margin-right: 120px;

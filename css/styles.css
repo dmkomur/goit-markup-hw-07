@@ -138,7 +138,7 @@ p {
     text-transform: uppercase;
     text-decoration: none;
     color: var(--color-text-accent);
-    margin-right: 76px;
+
 }
 
 .header-section {
@@ -153,6 +153,7 @@ p {
 .header-nav {
     display: flex;
     align-items: center;
+    margin-left: 76px;
 }
 
 .nav-list {

@@ -284,16 +284,18 @@
     display: flex;
     flex-wrap: wrap;
     gap: 72px;
+    justify-content: center;
 }
 
 .logo-footer {
     color: var(--color-text-unaccent);
-
+    padding-bottom: 17px;
+    display: block;
 }
 
 .footer-text {
     width: 268px;
-
+    text-align: left;
     color: #E7E9FC;
 
 }
@@ -322,6 +324,7 @@
 
 .footer-subscribe {
     justify-content: center;
+    flex-wrap: wrap;
     display: flex;
     gap: 16px;
 }
