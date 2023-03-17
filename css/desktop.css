@@ -15,6 +15,10 @@
         max-width: 1158px;
     }
 
+    /* header */
+
+
+
     /* hero   */
 
     .hero-section {
@@ -23,6 +27,17 @@
 
     .hero-header {
         margin: 0px auto 48px;
+    }
+
+    .address-list {
+        display: flex;
+        gap: 40px
+    }
+
+    .address-link {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
     }
 
     /* features */

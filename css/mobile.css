@@ -69,6 +69,56 @@
 
 }
 
+/* header */
+
+.logo-web {
+    color: var(--color-main)
+}
+
+.logo-header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--color-text-accent);
+
+}
+
+.btn-burger {
+    border: none;
+}
+
+
+.header {
+
+    padding-top: 24px;
+    padding-bottom: 22px;
+}
+
+.header-section {
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: none
+}
+
+
+.address {
+    display: none;
+}
+
+
+
 /* hero */
 
 .hero-section {
@@ -457,6 +507,7 @@
     width: 24px;
     border-radius: 50%;
     border: 1px solid rgba(46, 47, 66, 0.1);
+    background-color: #E7E9FC;
     margin-right: 8px;
     margin-left: auto;
     display: flex;
