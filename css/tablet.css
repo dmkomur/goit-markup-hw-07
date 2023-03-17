@@ -121,6 +121,18 @@
         gap: 24px;
     }
 
+    /* backdrop */
+
+    .modal {
+        max-width: 408px;
+        padding: 24px;
+    }
+
+    .close-btn {
+        margin-right: 0;
+    }
+
+
     /* other properties */
 
     @media screen and (min-width: 768px) and (max-width: 1199px) {

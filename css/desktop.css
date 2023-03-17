@@ -143,8 +143,20 @@
     }
 
 
+    /* backdrop */
+
+    .modal {
+
+        min-height: 584px;
+
+    }
 
 
+
+    .modal-input-textarea {
+        margin-bottom: 16px;
+        padding: 8px 18px;
+    }
 
     /* end */
 }

@@ -393,6 +393,226 @@
     fill: var(--color-alternative);
 }
 
+/* backdrop */
+
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(46, 47, 66, 0.4);
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms var(--transition-type);
+
+}
+
+.backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scale(1.1);
+    visibility: hidden;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    max-width: 392px;
+    min-height: 586px;
+    border-radius: 4px;
+    padding: 24px 16px;
+    background-color: var(--color-alternative);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 250ms var(--transition-type);
+
+
+    animation: pulse;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.modal-header {
+
+    line-height: 1.5;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    padding-top: 24px;
+    color: var(--color-text-accent);
+}
+
+.close-btn {
+
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    border: 1px solid rgba(46, 47, 66, 0.1);
+    margin-right: 8px;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 250ms var(--transition-type);
+
+}
+
+.modal-input-item {
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.modal-input-label {
+    display: block;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: #8E8F99;
+    margin-bottom: 4px;
+}
+
+.modal-input {
+    display: block;
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(46, 47, 66, 0.2);
+    padding-left: 38px;
+    transition: border-color 250ms var(--transition-type);
+}
+
+.modal-input-pic {
+    position: absolute;
+    bottom: 14px;
+    left: 19px;
+    transition: fill 250ms var(--transition-type);
+}
+
+.modal-input-textarea {
+    resize: none;
+    height: 120px;
+    padding: 8px 16px;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.privat-policy {
+    color: var(--color-main);
+}
+
+.modal-input-textarea::placeholder {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+}
+
+.terms-acces {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.modal-input-terms {
+    letter-spacing: 0.04em;
+    margin: 0;
+    margin-left: 24px;
+    position: relative;
+}
+
+.modal-input:hover,
+.modal-input:focus {
+    outline: none;
+    border: 1px solid var(--color-main);
+}
+
+
+.alt-checkbox {
+    position: absolute;
+    left: -23px;
+    bottom: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    background-color: var(--color-text-unaccent);
+    border: 1px solid #2E2F42;
+    border-radius: 2px;
+
+    transition: background-color 250ms var(--transition-type),
+        border-color 250ms var(--transition-type);
+}
+
+.modal-check-pic {
+    fill: var(--color-text-unaccent);
+}
+
+.modal-input:focus+.modal-input-pic,
+.modal-input:hover+.modal-input-pic {
+    fill: var(--color-main);
+}
+
+.modal-input-checkbox:checked+.alt-checkbox {
+    background-color: var(--color-main);
+    border-color: var(--color-main);
+}
+
+.btn-modal-send {
+    display: block;
+    height: auto;
+    width: 169px;
+    padding: 16px 32px;
+    background-color: var(--color-main);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0;
+    margin: 0 auto;
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--color-alternative);
+    cursor: pointer;
+
+    transition: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--transition-type);
+}
+
+.btn-modal-send:hover {
+
+    background-color: var(--color-hover);
+}
+
+.close-btn-pic {
+    fill: #2E2F42;
+    transition: fill 250ms var(--transition-type);
+
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    background-color: var(--color-hover);
+    border: none;
+}
+
+.close-btn:hover .close-btn-pic,
+.close-btn:focus .close-btn-pic {
+    fill: var(--color-alternative);
+}
+
 /* phone properties */
 
 @media screen and (min-width: 480px) {
