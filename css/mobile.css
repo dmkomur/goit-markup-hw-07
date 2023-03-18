@@ -28,7 +28,8 @@
 
 .social-links {
     display: flex;
-    justify-content: space-between;
+    gap: 16px;
+    justify-content: center;
 
 }
 
@@ -757,6 +758,10 @@
     color: #434455;
 }
 
+.menu-social-icon-links {
+    gap: 56px;
+    flex-wrap: wrap;
+}
 
 /* phone properties */
 
