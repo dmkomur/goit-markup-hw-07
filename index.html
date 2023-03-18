@@ -38,7 +38,7 @@
           <a class="logo-header" href="./index.html"
             ><span class="logo-web">Web</span>Studio</a
           >
-          <button class="btn-burger" type="button">
+          <button class="btn-burger" type="button" data-menu-open>
             <svg class="icon-burger" width="32" height="22">
               <use href="./images/icons.svg#icon-menu"></use>
             </svg>
@@ -569,6 +569,7 @@
     </footer>
 
     <!-- backdrop -->
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="close-btn" type="button" data-modal-close>
@@ -658,8 +659,8 @@
 
     <!-- mobile-menu -->
 
-    <div class="mobile">
-      <button class="close-btn mobile-close-btn" type="button" data-modal-close>
+    <div class="mobile is-hidden" data-menu>
+      <button class="close-btn mobile-close-btn" type="button" data-menu-close>
         <svg class="close-btn-pic" width="8px" height="8px">
           <use href="./images/icons.svg#icon-close"></use>
         </svg>
@@ -739,5 +740,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile.js"></script>
   </body>
 </html>
