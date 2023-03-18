@@ -4,6 +4,7 @@
 
     .container {
         max-width: 768px;
+        padding: 0 16px;
     }
 
     .section-subtitle {
@@ -16,6 +17,12 @@
         margin-bottom: 8px;
     }
 
+    .social-links {
+        justify-content: center;
+        gap: 24px;
+
+    }
+
     /* header */
     .btn-burger {
         display: none;
@@ -24,7 +31,7 @@
 
 
     .header {
-        padding: 0;
+        padding: 0 16px;
         display: flex;
         align-items: center;
     }
@@ -47,6 +54,7 @@
         position: relative;
         display: block;
         font-weight: 500;
+        font-size: 16px;
         color: var(--color-text-accent);
         text-decoration: none;
         letter-spacing: 0.02em;
@@ -224,10 +232,16 @@
         margin-right: 0;
     }
 
+    /* mobile */
+
+    .mobile {
+        display: none;
+    }
 
     /* other properties */
 
     @media screen and (min-width: 768px) and (max-width: 1199px) {
+
         .team-section>.container {
             padding: 0 108px;
         }
