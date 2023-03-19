@@ -90,8 +90,13 @@
 
 .btn-burger {
     border: none;
+    background-color: transparent;
 }
 
+.icon-burger {
+
+    stroke: var(--color-text-accent);
+}
 
 .header {
 
@@ -123,16 +128,31 @@
 /* hero */
 
 .hero-section {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    /* background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/people-office.jpg);
+    background-position: center; */
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/office-tablet.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    max-width: 1440px;
-    object-fit: contain;
+    max-width: 768px;
+    object-fit: cover;
     margin-left: auto;
     margin-right: auto;
     padding: 112px 0px;
     text-align: center;
+}
+
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/office-tablet2x.jpg);
+
+    }
+
 }
 
 .hero-header {

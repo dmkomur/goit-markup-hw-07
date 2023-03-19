@@ -52,6 +52,13 @@ p {
     letter-spacing: 0.02em
 }
 
+img {
+    max-width: 100%;
+
+    height: auto;
+    display: block;
+}
+
 :root {
     --color-text: #434455;
     --color-main: #4d5ae5;
