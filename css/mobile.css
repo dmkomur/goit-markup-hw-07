@@ -146,8 +146,8 @@
         url(../images/office-phone.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     max-width: 428px;
-    object-fit: contain;
     margin-left: auto;
     margin-right: auto;
     padding: 112px 0px;
@@ -162,7 +162,6 @@
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(../images/office-phone2x.jpg);
 
-        object-fit: contain;
     }
 
 
