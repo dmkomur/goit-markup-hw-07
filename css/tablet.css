@@ -107,7 +107,7 @@
         font-size: 12px;
         line-height: 1.17;
         letter-spacing: 0.04em;
-
+        font-weight: 400;
         transition: color;
         transition-duration: 250ms;
         transition-timing-function: var(--transition-type);
@@ -170,6 +170,7 @@
 
     .features-section-subtitle {
         text-align: left;
+        font-weight: 500;
 
     }
 
