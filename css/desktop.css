@@ -16,6 +16,16 @@
         padding: 0 15px;
     }
 
+    :root {
+        --color-text: #434455;
+        --color-main: #4d5ae5;
+        --color-hover: rgb(64, 75, 191);
+        --color-text-accent: #2E2F42;
+        --color-text-unaccent: #F4F4FD;
+        --color-alternative: #fff;
+        --transition-type: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
     /* header */
 
 
@@ -43,6 +53,7 @@
         .hero-section {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
                 url(../images/people-office2x.jpg);
+            object-fit: contain;
         }
 
     }
@@ -77,6 +88,14 @@
 
     .features-item {
         flex-basis: calc((100% - 24px * 3) / 4);
+    }
+
+    .features-section-subtitle {
+
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+
     }
 
     .features-icon {
