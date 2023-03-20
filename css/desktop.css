@@ -26,9 +26,13 @@
         --transition-type: cubic-bezier(0.4, 0, 0.2, 1);
     }
 
+
+
     /* header */
 
-
+    .nav-list {
+        margin-left: 76px;
+    }
 
     /* hero   */
 
@@ -111,7 +115,7 @@
 
     .features-section-subtitle {
         text-align: left;
-        font-weight: 500;
+        font-weight: 400;
         font-size: 20px;
         line-height: 1.2;
         color: var(--color-text-accent);
@@ -156,7 +160,7 @@
         padding-bottom: 120px;
     }
 
-    .costumers {
+    .custumers {
         gap: 24px;
     }
 

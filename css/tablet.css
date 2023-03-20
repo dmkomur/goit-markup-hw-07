@@ -193,12 +193,13 @@
 
     .team-card {
         flex-basis: calc((100% - 24px) / 2);
+        margin: 0;
     }
 
     /* costumers */
 
 
-    .costumers {
+    .custumers {
         gap: 72px 24px;
     }
 
