@@ -248,6 +248,28 @@
         gap: 24px;
     }
 
+    /* portfolio */
+
+    .switcher-section {
+        padding-top: 64px;
+        padding-bottom: 96px;
+    }
+
+    .switcher {
+
+        justify-content: center;
+        margin-bottom: 64px;
+    }
+
+    /* portfolio */
+    .portfolio {
+        gap: 72px 24px;
+    }
+
+    .portfolio-item {
+        flex-basis: calc((100% - 54px) / 2);
+    }
+
     /* backdrop */
 
     .modal {

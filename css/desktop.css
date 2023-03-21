@@ -201,6 +201,29 @@
         width: 264px;
     }
 
+    /* portfolio */
+
+    .switcher-section {
+        padding-top: 96px;
+        padding-bottom: 120px;
+    }
+
+    .switcher {
+
+        margin-bottom: 72px;
+    }
+
+
+    /* portfolio */
+    .portfolio {
+
+        gap: 48px 24px;
+    }
+
+
+    .portfolio-item {
+        flex-basis: calc((100% - 30px - 2 * 24px) / 3);
+    }
 
     /* backdrop */
 
