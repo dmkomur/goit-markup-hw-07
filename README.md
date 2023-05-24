@@ -1,3 +1,3 @@
-# goit-markup-hw-01
+# individual homework HTML + CSS
  
  https://dmkomur.github.io/goit-markup-hw-07/
